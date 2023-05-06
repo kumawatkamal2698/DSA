@@ -9,7 +9,6 @@ using namespace std;
     {
     for(j=2*i;j>=1;j--)
     cout<<" ";
-    cout<<"  ";
     for(k=n;k>=i;k--)
     cout<<k<<" ";
     for(l=i+1;l<=n;l++)
