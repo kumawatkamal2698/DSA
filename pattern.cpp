@@ -5,14 +5,14 @@ using namespace std;
     int main(){
     cout<<"enter the rows : ";
     cin>>n;
-    for(i=n;i>=1;i--)
+    for(i=1;i<=n;i++)
     {
-    for(j=2*i;j>=1;j--)
+    for(j=2*(n-i);j>=1;j--)
     cout<<" ";
-    for(k=n;k>=i;k--)
+    for(k=1;k<=i;k++)
     cout<<k<<" ";
-    for(l=i+1;l<=n;l++)
-    cout<<l<<"  ";
+    for(l=i-1;l>=1;l--)
+    cout<<l<<" ";
     cout<<"\n"; 
     }
     }
