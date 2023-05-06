@@ -12,7 +12,7 @@ using namespace std;
     for(k=n;k>=i;k--)
     cout<<k<<" ";
     for(l=i+1;l<=n;l++)
-    cout<<l<<" ";
+    cout<<l<<"  ";
     cout<<"\n"; 
     }
     }
